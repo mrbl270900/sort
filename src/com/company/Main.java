@@ -51,9 +51,9 @@ public class Main {
         System.out.println("her er index af 3 " + Searching.jumpsearch(intlist, 3));
         System.out.println("her er index af mads " + Searching.jumpsearch(MyStringlist, "mads"));
 
-        System.out.println("her er index af 55 " + Searching.binarysearch(Integerarr, 55, 0, Integerarr.length));
-        System.out.println("her er index af 3 " + Searching.binarysearch(intlist, 3,0,intlist.size()));
-        System.out.println("her er index af mads " + Searching.binarysearch(MyStringlist, "mads",0,MyStringlist.size()));
+        System.out.println("her er index af 55 " + Searching.binarysearch(Integerarr, 55, 0, Integerarr.length-1));
+        System.out.println("her er index af 3 " + Searching.binarysearch(intlist, 3,0,intlist.size()-1));
+        System.out.println("her er index af mads " + Searching.binarysearch(MyStringlist, "mads",0,MyStringlist.size()-1));
 
     }
 }
